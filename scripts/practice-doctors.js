@@ -54,7 +54,7 @@ let polarRecords = []
 // Austin Kinkaid is a Pop artist and is 22 years old
 // Loyoncé Branis is a Rap artist and is 27 years old
 
-createBluegrassArtist = (name, genre, age) => {
+const createBluegrassArtist = (name, genre, age) => {
     const bluegrassArtist = {
         "artistName": name,
         "musicGenre": genre,
@@ -63,7 +63,7 @@ createBluegrassArtist = (name, genre, age) => {
     return bluegrassArtist
 }
 
-createCountryArtist = (name, genre, age) => {
+const createCountryArtist = (name, genre, age) => {
     const countryArtist = {
     "artistName": name,
     "musicGenre": genre,
